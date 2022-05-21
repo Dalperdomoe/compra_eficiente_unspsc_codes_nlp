@@ -51,6 +51,77 @@ Project Organization
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
+Setup
+------------
+
+Credentials
+-----------
+
+In order to use sodapy, you must take the following into account to use the API token:
+- Create a '.env' file in the root of the repository
+- Finally, the credentials MUST be stored as it is shown in environment_example file.
+
+Python Enviroment (Optional)
+-----------
+
+Create a python enviroment in root repository
+```
+python3 -m venv env
+```
+
+Activate the enviroment
+```
+source .env/bin/activate
+```
+
+
+Installation
+------------
+```
+python setup.py install
+```
+
+Install required packages
+```
+pip install -r requirements
+```
+
+Authors
+------------
+
+Laura Navarro
+
+Julian Vargas
+
+Daniel Perdomo
+
+Julian Chacon
+
+Victor Rivera
+
+Jose Dager
+
+Jose Cardenas
+
+For Contributors
+------------
+
+General Remarks
+-----------
+This library broadly follows the PEP8 style guide.
+
+Additionally, names of classes, methods and functions must be written in English, and the documentation must be in Spanish.
+
+Docstrings use the NumPy style and type hints are highly encouraged.
+
+Version Change Policies
+-----------
+- X.0.0 -- Major version change: merge to master branch (stable release).
+
+- 0.X.0 -- Middle version change: change that may affect previous functionality.
+
+- 0.0.X -- Minor version change: change that does not affect existing functionality.
+
 
 --------
 
