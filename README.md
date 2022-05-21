@@ -71,7 +71,7 @@ python3 -m venv env
 
 Activate the enviroment
 ```
-source .env/bin/activate
+source env/bin/activate
 ```
 
 
