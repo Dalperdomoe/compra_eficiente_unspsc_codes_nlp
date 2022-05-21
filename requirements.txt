@@ -2,16 +2,11 @@
 -e .
 
 # external requirements
-pandas
-ipykernel
-numpy
 matplotlib
 seaborn
-sodapy
 click
 Sphinx
 coverage
 awscli
 flake8
 black
-python-dotenv>=0.5.1
