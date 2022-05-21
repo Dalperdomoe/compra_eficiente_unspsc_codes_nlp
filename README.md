@@ -58,13 +58,13 @@ Credentials
 -----------
 
 In order to use sodapy, you must take the following into account to use the API token:
-- Create a '.env' file in the root of the repository
+- Create a '.env' file in root's repository.
 - Finally, the credentials MUST be stored as it is shown in environment_example file.
 
 Python Enviroment (Optional)
 -----------
 
-Create a python enviroment in root repository
+Create a python enviroment in root's repository
 ```
 python3 -m venv env
 ```
@@ -110,7 +110,7 @@ General Remarks
 -----------
 This library broadly follows the PEP8 style guide.
 
-Additionally, names of classes, methods and functions must be written in English, and the documentation must be in Spanish.
+Additionally, names of classes, methods and functions must be written in English, and the documentation must also be in English.
 
 Docstrings use the NumPy style and type hints are highly encouraged.
 
