@@ -3,6 +3,7 @@
 
 # external requirements
 pandas
+ipykernel
 numpy
 matplotlib
 seaborn
