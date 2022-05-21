@@ -83,7 +83,7 @@ python setup.py install
 
 Install required packages
 ```
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 Authors
