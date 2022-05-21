@@ -58,13 +58,13 @@ Credentials
 -----------
 
 In order to use sodapy, you must take the following into account to use the API token:
-- Create a '.env' file in root's repository.
+- Create a '.env' file in  repository's root.
 - Finally, the credentials MUST be stored as it is shown in environment_example file.
 
 Python Enviroment (Optional)
 -----------
 
-Create a python enviroment in root's repository
+Create a python enviroment in repository's root
 ```
 python3 -m venv env
 ```
