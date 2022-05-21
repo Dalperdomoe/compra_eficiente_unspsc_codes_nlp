@@ -1,7 +1,7 @@
 Compra Eficiente UNSPSC Codes NLP
 ==============================
 
-classification of public procurement through UNSPSC codes
+classification of public procurement through UNSPSC codes.
 
 Project Organization
 ------------
