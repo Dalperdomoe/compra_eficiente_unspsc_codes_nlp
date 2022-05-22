@@ -66,10 +66,10 @@ Python Enviroment (Optional)
 
 Create a python enviroment in repository's root
 ```
-python3 -m venv env
+make create_environment
 ```
 
-Activate the enviroment
+Activate the environment
 ```
 source env/bin/activate
 ```
@@ -78,12 +78,7 @@ source env/bin/activate
 Installation
 ------------
 ```
-python setup.py install
-```
-
-Install required packages
-```
-pip install -r requirements.txt
+make requirements
 ```
 
 Authors
