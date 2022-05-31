@@ -3,11 +3,8 @@ from setuptools import find_packages, setup
 setup(
     name='src',
     install_requires=[
-        "pandas", 
-        "ipykernel", 
-        "numpy",
-        "sodapy",
-        "python-dotenv>=0.5.1"
+        "sodapy==2.1.1",
+        "python-dotenv==0.20.0"
     ],
     version='0.1.0',
     description='classification of public procurement through UNSPSC codes',
