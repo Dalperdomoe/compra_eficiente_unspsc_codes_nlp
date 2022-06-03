@@ -55,10 +55,14 @@ def secop2_data_generator():
 
 if __name__ == '__main__':
 
+    if not os.path.exists(RAW_DATA_DIR):
+
+        os.mkdir(RAW_DATA_DIR)
+
     if not os.path.exists(RAW_DATA_FILE):
 
         secop2_data_generator()
 
     else:
 
-        print("raw dataset already exists.")
+        print("Raw Dataset Already Exists!")
