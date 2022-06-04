@@ -7,6 +7,12 @@ SOCRATA_DATASET_IDENTIFIER = 'jbjy-vk9h'
 SOCRATA_TOKEN = os.environ.get("SODAPY_APPTOKEN")
 
 CURRENT_DIR = os.path.abspath(os.path.dirname(__file__))
+DATA_DIR = os.path.join(
+    CURRENT_DIR,
+    os.pardir,
+    os.pardir,
+    "data"
+)
 RAW_DATA_DIR = os.path.join(
     CURRENT_DIR,
     os.pardir,
@@ -56,6 +62,8 @@ def secop2_data_generator():
 if __name__ == '__main__':
 
     if not os.path.exists(RAW_DATA_DIR):
+
+        os.mkdir(DATA_DIR)
 
         os.mkdir(RAW_DATA_DIR)
 
