@@ -12,3 +12,4 @@ Sphinx==5.0.0
 coverage==6.4
 awscli==1.25.0
 flake8==4.0.1
+openpyxl==3.0.10
