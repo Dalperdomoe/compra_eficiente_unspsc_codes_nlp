@@ -3,7 +3,11 @@ from setuptools import find_packages, setup
 setup(
     name='src',
     install_requires=[
-        "sodapy==2.1.1",
+        "sodapy",
+        "nltk",
+        "sklearn",
+        "pandas",
+        "numpy",
         "python-dotenv==0.20.0"
     ],
     version='0.1.0',
