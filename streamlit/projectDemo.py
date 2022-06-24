@@ -18,7 +18,7 @@ def botoncito():
         st.dataframe(df1)
         st.markdown('A validation table is shown with the complete results of the classification.'
                     ' It gives you a suggestion to change your **UNSPC** code or a recommendation'
-                    ' for your contract')
+                    ' for your contract ')
         st.subheader('Words Count')
         image = Image.open('servicios.png')
         st.image(image, caption='Sunrise by the mountains')
