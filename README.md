@@ -84,19 +84,13 @@ make requirements
 Authors
 ------------
 
+Daniel Perdomo
+
 Laura Navarro
 
 Julian Vargas
 
-Daniel Perdomo
-
-Julian Chacon
-
 Victor Rivera
-
-Jose Dager
-
-Jose Cardenas
 
 For Contributors
 ------------
