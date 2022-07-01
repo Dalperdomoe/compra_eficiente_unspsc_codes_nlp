@@ -11,3 +11,4 @@ awscli
 flake8
 openpyxl
 unidecode
+tensorflow>=2.0.0
